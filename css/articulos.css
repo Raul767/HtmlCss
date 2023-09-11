@@ -1,18 +1,85 @@
-body{
-  background: #ffffff;
+.title{
+  text-align: center;
 }
-.articulo1{
-  align-content: space-around;
+
+.container{
   display: flex;
-  border: 1px solid #000;
+  width: 100%;
+  border: 2px solid;
+  text-align: justify;
+  margin-bottom: 10px;
 }
 
-.titulo1{
-  text-align: center;
-  align-content: space-around;
+.cuadro{
+  height: 200px;
+  width: 200px;
+  background-image: url(../img/lighthouse-6785763_1280.jpg);
+  margin: 10px;
+  border: 1px solid;
 }
 
-h2{
-  text-align: center;
-  font-size: 25px;
+.subtitle {
+  width: 100%;
+}
+
+.button{
+  float: right;
+  border: none;
+  padding: 5px;
+  margin: 10px;
+  font-size: 18px;
+  color: #ffffff;
+  background: dodgerblue;
+  }
+  
+  @media (min-width: 1000px) {
+    .button:hover {
+      background: blue;
+      transition: 0.7s ease all;
+    }
+  }
+
+.container1{
+  margin-top: 3%;
+  display: flex;
+  width: 100%;
+  border: 2px solid;
+  text-align: justify;
+  margin-bottom: 10px;
+}
+
+.cuadro1{
+  height: 200px;
+  width: 200px;
+  background-image: url(../img/lighthouse-6785763_1280.jpg);
+  margin: 10px;
+  border: 1px solid;
+}
+
+.subtitle1{
+  width: 100%;
+}
+
+.button1{
+  float: left;
+  border: none;
+  padding: 5px;
+  margin: 10px;
+  font-size: 18px;
+  color: #ffffff;
+  background: dodgerblue;
+  }
+  
+  @media (min-width: 1000px) {
+    .button1:hover {
+      background: blue;
+      transition: 0.7s ease all;
+    }
+  }
+
+.parrafo {
+  float: left;
+  width: 100%;
+  text-align: justify;
+  margin-bottom: 10px;
 }
